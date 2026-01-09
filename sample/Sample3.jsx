@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function Sample2() {
+function Sample3() {
 
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -42,4 +42,5 @@ function Sample2() {
   )
 }
 
-export default Sample2
+export default Sample3
+
