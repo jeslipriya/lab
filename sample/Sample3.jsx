@@ -7,7 +7,9 @@ function Sample3() {
     const [password, setPassword] = useState("");
     const [submitteddata, setSubmitteddata] = useState(null);
 
-    const handleSubmit = () =>{
+    const handleSubmit = (e) =>{
+e.preventDefault() ;
+
         const form = {name, email, password}
         setSubmitteddata = form;
         setName("");
@@ -43,4 +45,5 @@ function Sample3() {
 }
 
 export default Sample3
+
 
