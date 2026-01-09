@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 function Sample3() {
 
-    const [tasks, setTasks] = useState("");
+    const [tasks, setTasks] = useState([]);
     const [text, setText] = useState("");
 
     const addTask = () =>{
@@ -37,3 +37,4 @@ function Sample3() {
 }
 
 export default Sample3
+
