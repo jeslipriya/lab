@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function Sample3() {
+function Sample2() {
 
     const [tasks, setTasks] = useState([]);
     const [text, setText] = useState("");
@@ -36,5 +36,6 @@ function Sample3() {
   )
 }
 
-export default Sample3
+export default Sample2
+
 
