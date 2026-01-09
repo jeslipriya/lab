@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function Sample() {
+function Sample1() {
 
     const [count, setCount] = useState(0);
 
@@ -29,4 +29,5 @@ function Sample() {
   )
 }
 
-export default Sample
+export default Sample1
+
